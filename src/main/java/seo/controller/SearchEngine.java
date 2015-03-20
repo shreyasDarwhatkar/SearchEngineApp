@@ -64,6 +64,7 @@ public class SearchEngine {
 		JSONObject rankObj = (JSONObject) jsonParser.parse(new FileReader(jsonFile2));
 		
 		JSONArray jsonArr = (JSONArray) indexObj.get(word);
+		
 		List<JSONObject> docList = new ArrayList<JSONObject>();
 		List<seo.model.ResultBean> results = new ArrayList<seo.model.ResultBean>();
 		

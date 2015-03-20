@@ -8,13 +8,13 @@
 
 	<table style="height: 100%; width: 100%">
 		<tr height="30%">
-			<td></td>
+			<td align="middle"><img src="http://www.solostream.com/wp-content/uploads/2014/04/seo3.jpg" width="40%" height="40%"></td>
 		</tr>
 		<tr height="30%">
 			<td><form action="startSearch" method="get">
 					<div class="container">
 						<div class="row">
-							<h2>Juggernaut</h2>
+							
 							<div id="custom-search-input">
 								<div class="input-group col-md-12">
 									<table style="width: 100%">

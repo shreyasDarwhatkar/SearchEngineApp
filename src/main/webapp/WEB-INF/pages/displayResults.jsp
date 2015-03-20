@@ -3,7 +3,7 @@
 <body>
 	<h1>Search Engine123</h1>
 <c:forEach items="${results}" var="result">
-${result.url}<br/>
+<b>${result.title}</b> -  ${result.url}<br/>
 </c:forEach>
 
 </body>

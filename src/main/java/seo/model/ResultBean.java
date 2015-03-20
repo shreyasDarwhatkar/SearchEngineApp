@@ -9,11 +9,14 @@ public class ResultBean {
 		int count;
 		String url;
 		double pageRank;
+		String title;
 		
 		public ResultBean() {
 			super();
 			// TODO Auto-generated constructor stub
 		}
+		
+		
 
 		public String getId() {
 			return id;
@@ -69,5 +72,17 @@ public class ResultBean {
 
 		public void setPageRank(double pageRank) {
 			this.pageRank = pageRank;
+		}
+
+
+
+		public String getTitle() {
+			return title;
+		}
+
+
+
+		public void setTitle(String title) {
+			this.title = title;
 		}
 }

@@ -53,8 +53,8 @@ public class SearchEngine {
 		System.out.println(data);
 		//String word = "mac";
 		String word = data;
-        String jsonPath1 = "C:\\Users\\Akshay\\cs454seo\\Indexer\\target\\indexer.json";
-        String jsonPath2 = "C:\\Users\\Akshay\\cs454seo\\Indexer\\target\\ranking.json";
+        String jsonPath1 = "C:\\Users\\SHREYAS\\Documents\\GitHub\\Indexer\\target\\indexer.json";
+        String jsonPath2 = "C:\\Users\\SHREYAS\\Documents\\GitHub\\Indexer\\target\\ranking.json";
         File jsonFile1 = new File(jsonPath1);
         File jsonFile2 = new File(jsonPath2);
         //System.out.println(jsonFile1);
@@ -82,6 +82,8 @@ public class SearchEngine {
 			resultSet.setCount(Integer.parseInt(temp));
 			temp = (String) jsonObj.get("TitleRank");
 			resultSet.setTitleRank(Double.parseDouble(temp));
+			temp = (String) jsonObj.get("Title");
+			resultSet.setTitle(temp);
 			temp = (String) jsonObj.get("TermFrequency");
 			resultSet.setTermFreq(Double.parseDouble(temp));
 			results.add(resultSet);

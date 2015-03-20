@@ -78,6 +78,7 @@ public class SearchEngine {
 			//System.out.println(temp);
 			temp = (String) jsonObj.get("Description");
 			resultSet.setDesc(temp);
+			System.out.println("description"+temp);
 			temp = (String) jsonObj.get("Count");
 			resultSet.setCount(Integer.parseInt(temp));
 			temp = (String) jsonObj.get("TitleRank");
